@@ -4,12 +4,10 @@ using System.Collections;
 using System.Linq;
 using System.Collections.Generic;
 using NaughtyAttributes;
-using XLua;
 #if UNITY_EDITOR
 using UnityEditor;
 [CanEditMultipleObjects]
 #endif
-[LuaCallCSharp]
 public class CombineMeshes : MonoBehaviour
 {
     public List<Transform> excluded = new List<Transform>();
